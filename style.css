@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inconsolata:wght@300&family=Monomaniac+One&family=Quicksand&family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inconsolata:wght@300&family=Monomaniac+One&family=Quicksand&family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Inconsolata:wght@200&family=Monomaniac+One&family=Quicksand&family=Rajdhani:wght@500&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(50, 50, 50);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(50, 50, 50);
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-hedding{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+h1{
+    color: #fff;
+    margin: 0px;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.main-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.two-buttons{
+    width: 90%;
+}
+.plus-div,.clr-div{
+    width: 576px;
+    height: 117px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.plus-div{
+    border-left: 10px solid rgb(140, 238, 255);
+    margin-bottom: 20px;
+}
+.spantodo{
+    color: rgb(140, 238, 255);
+}
+.spanto-do{
+    color: rgb(193, 255, 48);
+}
+.clrspan{
+    color: rgb(255, 255, 44);
+}
+.clr-div{
+    border-left: 10px solid rgb(255, 255, 44);;
+}
+
+.p-add,.p-clr{
+    font-size: 20px;
+    height: auto;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    color: rgb(202, 202, 202);
+}
+.add{
+    height: 70px;
+    width: 70px;
+    margin: 10px 50px;
+    font-size: 60px;
+    font-weight: 10;
+    background-color: rgb(140, 238, 255);
+    color: rgb(50, 50, 50);
+    border-style: none;
+    border-radius: 8px;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.add:hover{
+    background-color: rgb(140, 238, 255);
+    box-shadow: 0 0 5px rgb(140, 238, 255),
+                0 0 20px rgb(140 238 255 / 0.8),
+                0 0 35px rgb(140 238 255 / 0.7),
+                0 0 50px rgb(140 238 255 / 0.6);
+}
+.clr{
+    height: 70px;
+    width: 70px;
+    margin: 10px 50px;
+    font-size: 17px;
+    font-weight: 600;
+    border-style: none;
+    color: rgb(50, 50, 50);
+    background-color: rgb(255, 255, 44);
+    border-radius: 8px;
+    letter-spacing: 1px;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.clr:hover{
+    background-color: rgb(255, 255, 44);
+    box-shadow: 0 0 5px rgb(255, 255, 44),
+                0 0 20px rgb(255 255 44 / 0.8),
+                0 0 35px rgb(255 255 44 / 0.7),
+                0 0 50px rgb(255 255 44 / 0.6);
+}
+
+
+#dailoug-box{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(50, 50, 50);
+    position:absolute;
+    top: 30vh;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.top{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    color: #fff;
+    font-weight: 700;
+    font-size:2rem;
+    letter-spacing: 2px;
+}
+.span1{
+    color:rgb(255, 191, 71);
+}
+
+h4{
+    margin: 5px 20px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.x{
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:rgb(50, 50, 50) ;
+    border-style: none;
+}
+#title{
+    
+    width: 275px;
+    height: 25px;
+}
+.titles{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h4-title{
+    align-self: flex-start;
+}
+.span2{
+    color: rgb(255, 133, 133);
+    font-size: 14px;
+}
+#description{
+    width: 275px;
+    height: 30px;
+}
+.create{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    width: 275px;
+    height: 40px;
+    background-color: rgb(255, 191, 71);
+    border-style: none;
+    border-radius: 8px;
+    color: rgb(50, 50, 50);
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.create:hover{
+    background-color: rgb(255, 191, 71);
+    box-shadow: 0 0 5px rgb(255, 191, 71),
+                0 0 10px rgb(255 191 71 / 0.8),
+                0 0 20px rgb(255 191 71 / 0.7),
+                0 0 30px rgb(255 191 71 / 0.6);
+}
+#title,#description{
+    border-style: none;
+    background-color: rgb(202, 202, 202);
+    color: rgb(50, 50, 50);
+    font-size: 16px;
+    border-radius: 6px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.visible-box{
+    visibility: visible;
+}
+.hidden-box{
+    visibility: hidden;
+}
+.container22{
+    width:95%;
+    height: 300px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.containers{
+    width: 40%;
+    margin:10px 10px 10px 10px;
+    background-color: rgb(50, 50, 50);
+    margin-right:0px ;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(246, 53, 53);
+    border-style: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+.delete:hover{
+    background-color: rgb(246, 53, 53);
+    box-shadow: 0 0 5px rgb(246, 53, 53),
+                0 0 10px rgb(246 53 53 / 0.8),
+                0 0 20px rgb(246 53 53 / 0.7),
+                0 0 30px rgb(246 53 53 / 0.6);
+}
+.para{
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+.h4bar{
+    font-size: 2rem;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+@media (max-width: 603px) {
+
+    .plus-div,.clr-div{
+        width: 90%;
+        height: auto;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .p-add,.p-clr{
+        font-size: 15px;
+    }
+    .add{
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+    }
+    .clr{
+        height: 40px;
+        width: 40px;
+        font-size: 10px;
+    }
+    .container22{
+        width: 100%;
+        height: 275px;
+    }
+    .containers{
+        width: 90%;
+        margin:10px 10px 10px 10px;
+        margin-right:0px ;
+        background-color: #ff5988;
+    }
+    
+
+  }

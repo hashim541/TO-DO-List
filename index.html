@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="main-hedding">
+            <h1><span class="spanto-do">TO-DO</span> List</h1>
+       </div>
+        
+            <div class="main-buttons">
+            <div class="plus-div">
+                <p class="p-add">Add your favourite things to this <span class="spantodo">ToDo</span> list <br>
+                so you don't forget <br>
+                 click the " + " button to get started</p>
+                <button class="add" >+</button>
+            </div>
+            <br>
+            <div class="clr-div">
+                <p class="p-clr">Clicking this <span class="clrspan">Clear</span> button <br>
+                    will delete all the tasks</p>
+                <button class="clr">CLEAR</button>
+            </div>
+            <br>
+        </div>
+        <br>
+        <div class="container22">
+           
+        </div>
+    </div>
+    <div class="dailoug-box hidden-box" id="dailoug-box">
+        <div class="top">
+            <div class="headding">
+                <h2>ADD <span class="span1">TASK</span></h2>
+            </div>
+            <div class="wrong">
+                <button  class="x" onclick="hide()"> X </button>
+            </div>
+        </div>
+        <div class="titles">
+            <h4 class="h4-title">Title</h4>
+            <span class="span2">Don't use same title, rather use some other title</span>
+            <input type="text"  id="title" placeholder="ex: work,work_2,school,home,etc.">
+        </div>
+        <div class="descriptions">
+            <h4>Description</h4>
+            <input type="text" id="description" placeholder="type in what do you want to do">
+        </div>
+        <div class="buttons">
+            <button class="create" >Create</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
